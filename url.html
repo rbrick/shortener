@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>URL Shortener</title>
+		  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="http://bootswatch.com/lumen/bootstrap.min.css">
+   <!-- Optional theme -->
+ <!-- <link rel="stylesheet" href="http://bootswatch.com/lumen/bootstrap.min.css"> -->
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <center>
+ <h1>URL Shortener</h1>
+ <hr />	
+ <div class="container">
+	<form action="/v" method="POST"role="form" class="form-inline" >
+		<div class="form-group" style="width: 100%">
+	     <div class="input-group" >
+	     <div class="input-group-addon">URL:</div>
+    <input class="form-control" name="longUrl" type="url"/> 
+      </div>
+         <input class="form-control btn btn-success"   type="submit" value="Shorten"/>
+     </div>
+	</form>
+	</center>
+
+</div>
+</body>
+</html>
